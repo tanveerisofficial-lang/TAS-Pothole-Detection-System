@@ -1,0 +1,4 @@
+Precision (P) ≈ 0.80
+Recall (R) ≈ 0.73
+mAP50 ≈ 0.79
+mAP50-95 ≈ 0.51
