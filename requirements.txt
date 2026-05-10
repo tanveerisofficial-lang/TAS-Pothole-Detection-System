@@ -4,7 +4,7 @@ streamlit
 ultralytics
 opencv-python-headless
 pillow
-numpy
-tensorflow-cpu
+numpy==1.26.4
+tensorflow-cpu==2.15.1
 torch==2.11.0+cpu
 torchvision==0.26.0+cpu
