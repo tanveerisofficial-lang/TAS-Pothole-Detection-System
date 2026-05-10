@@ -12,7 +12,7 @@ import os
 # PAGE CONFIG
 # =========================
 st.set_page_config(
-    page_title="TAS Pothole Detection System - Hybrid Model",
+    page_title="TAS Pothole Detection System | Hybrid Model",
     page_icon="🚧",
     layout="wide"
 )
@@ -214,7 +214,7 @@ def draw_detections(image_pil, detections):
 # =========================
 # APP UI
 # =========================
-st.title("🚧 TAS Pothole Detection System")
+st.title("🚧 TAS Pothole Detection System | Hybrid Model")
 
 st.markdown("""
 ### 👨‍💻 Developed By:
