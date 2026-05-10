@@ -1,6 +1,7 @@
 import streamlit as st
 from ultralytics import YOLO
 import tensorflow as tf
+import keras
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 import base64
@@ -84,7 +85,11 @@ def load_yolo_model():
 
 @st.cache_resource
 def load_cnn_model():
-    return tf.keras.models.load_model(CNN_MODEL_PATH, compile=False)
+    return keras.models.load_model(
+        CNN_MODEL_PATH,
+        compile=False,
+        safe_mode=False
+    )
 
 
 try:
