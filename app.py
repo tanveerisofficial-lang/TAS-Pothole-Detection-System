@@ -229,7 +229,7 @@ st.markdown("""
 st.write("---")
 
 st.markdown("""
-## 🧠 Hybrid Detection Pipeline
+## Hybrid Detection Pipeline
 
 This system uses a **YOLO + CNN hybrid model**:
 
